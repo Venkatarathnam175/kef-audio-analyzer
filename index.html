@@ -214,7 +214,7 @@
   form.append("file", selectedFile);
 
   try {
-    const res = await fetch(UPLOAD_URL, {
+    const res = await fetch(APPS_SCRIPT_URL, {
       method: "POST",
       body: form
     });
